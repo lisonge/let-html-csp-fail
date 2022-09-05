@@ -55,5 +55,5 @@ client['Network.requestIntercepted'](
 
 await Network.enable({});
 await Page.enable();
-await Page.navigate({ url: 'https://i.songe.li/' });
+await Page.navigate({ url: 'https://i.songe.li/csp' });
 await client['Page.loadEventFired']();
